@@ -1,6 +1,6 @@
 # kbs_sil_2022
 
 ### Anggota
-*Kahfi*
-*Rizal*
-*Akram*
+  1. *Kahfi*
+  2. *Rizal*
+  3. *Akram*
