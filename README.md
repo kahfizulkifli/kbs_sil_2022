@@ -1,9 +1,9 @@
 # kbs_sil_2022
 
 ## Anggota:
-  1. *Kahfi*
-  2. *Rizal*
-  3. *Akram*
+  1. *13519012 Kahfi*
+  2. *13519136 Rizal*
+  3. *13519142 Akram*
 
 
 ## Run Program (Development)
