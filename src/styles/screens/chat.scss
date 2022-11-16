@@ -1,0 +1,30 @@
+#chat-sidebar {
+  width: 250px;
+  height: calc(100vh - #{$header-height});
+  overflow: auto;
+
+  @include to($breakpoint-md) {
+    transition: all 0.3s ease-in-out;
+    margin-left: -250px;
+
+    &.open {
+      margin-left: 0;
+    }
+  }
+  .counter {
+    background-color: $default-danger;
+    border-radius: 50px;
+    color: $default-white;
+    font-size: 10px;
+    line-height: 1;
+    padding: 3px 5.5px;
+    position: absolute;
+    right: 6px;
+    top: 18px;
+  }
+}
+
+#chat-box {
+  height: calc(100vh - #{$header-height});
+  overflow: auto;
+}

@@ -1,0 +1,43 @@
+@media (max-width: 1000px) {
+    .rdrMonths.rdrMonthsHorizontal{
+    flex-direction: column !important;
+    }
+}
+@media (max-width: 650px) {
+    .rdrDateRangePickerWrapper{
+        width: 450px !important;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .rdrDateRangePickerWrapper{
+        width: 350px !important;
+
+    }
+    .rdrCalendarWrapper{
+        font-size: 10px !important;
+
+    }
+    .rdrDefinedRangesWrapper{
+        font-size: 10px !important;
+    }
+    .rdrStaticRangeLabel{
+        padding: 10px 0px!important;
+    }
+}
+
+@media (max-width: 400px) {
+    .rdrDateRangePickerWrapper{
+        display: flex !important;
+        flex-direction:column !important;
+    }
+    .rdrDefinedRangesWrapper{
+        width: 100% !important;
+    }
+    .modal-body{
+        max-height: 400px;
+        overflow: auto;
+    }
+   
+}

@@ -1,0 +1,219 @@
+.btn {
+  transition: all 0.2s;
+  border-radius: 6px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.4s;
+  user-select: none;
+}
+
+.btn-success {
+  background-color: #2cb34d;
+  color: #fff !important;
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+  background-color: #109c33 !important;
+  color: #fff !important;
+  box-shadow: 0px 2px 8px 2px #109c33 !important;
+}
+.btn-success:active:hover,
+.btn-success:active:focus {
+  background-color: #3abd5b !important;
+  color: #fff !important;
+}
+
+.btn-green {
+  background-color: #2cb34d;
+  color: #fff !important;
+}
+.btn-green:hover,
+.btn-green:active,
+.btn-green:focus {
+  background-color: #109c33;
+  color: #fff !important;
+  box-shadow: 0px 2px 8px 2px #109c33;
+}
+.btn-green:active:hover,
+.btn-green:active:focus {
+  background-color: #3abd5b;
+  color: #fff !important;
+}
+
+.btn-green.txt-white {
+  background-color: #2cb34d;
+  color: #fff !important;
+}
+.btn-green.txt-white:hover,
+.btn-green.txt-white:active,
+.btn-green.txt-white:focus {
+  background-color: #109c33;
+  color: #fff !important;
+  box-shadow: 0px 2px 8px 2px #109c33;
+}
+.btn-green.txt-white:active:hover,
+.btn-green:active:focus {
+  background-color: #3abd5b;
+  color: #fff !important;
+}
+
+.btn-blue {
+  background-color: #039dcc;
+  color: #fff !important;
+  border: 1px solid #039dcc;
+}
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:focus {
+  background-color: #0985ab;
+  color: #fff !important;
+  box-shadow: 0px 2px 8px 2px #0985ab;
+}
+.btn-blue:active:hover,
+.btn-blue:active:focus {
+  background-color: #148db3;
+  color: #fff !important;
+}
+
+.btn-red {
+  background-color: #ff5a52;
+  color: #fff !important;
+  border: 1px solid #ff5a52;
+}
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus {
+  background-color: #ff6a63;
+  color: #fff !important;
+  box-shadow: 0px 2px 8px 2px #ff6a63;
+}
+.btn-red:active:hover,
+.btn-red:active:focus {
+  background-color: #ff7a74;
+  color: #fff !important;
+}
+
+.swal-button.swal-button--confirm {
+  background-color: #039dcc;
+  color: #fff !important;
+  border: 1px solid #039dcc;
+}
+.swal-button.swal-button--confirm:hover,
+.swal-button.swal-button--confirm:active,
+.swal-button.swal-button--confirm:focus {
+  background-color: #2875db;
+  color: #fff !important;
+  box-shadow: 0px 2px 8px 2px #2875db;
+}
+.swal-button.swal-button--confirm:active:hover,
+.swal-button.swal-button--confirm:active:focus {
+  background-color: #4084df;
+  color: #fff !important;
+}
+
+.btn-purple {
+  background-color: #9a62a3;
+  color: #fff;
+}
+.btn-purple:hover,
+.btn-purple:active,
+.btn-purple:focus {
+  background-color: #a471ac;
+  color: #fff;
+  box-shadow: 0px 2px 8px 2px #a471ac;
+}
+.btn-purple:active:hover,
+.btn-purple:active:focus {
+  background-color: #ae81b5;
+  color: #fff;
+}
+
+.btn-dim {
+  background-color: #f1f5f9;
+  color: #a7b2b8;
+  border-radius: 5px;
+  border: 1px solid #a7b2b8;
+}
+.btn-dim:hover,
+.btn-dim:active,
+.btn-dim:focus {
+  background-color: #f1f5f9;
+  color: #a7b2b8;
+  box-shadow: 0px 2px 8px 2px #f1f5f9;
+}
+.btn-dim:active:hover,
+.btn-dim:active:focus {
+  background-color: #f1f5f9;
+  color: #a7b2b8;
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: #039dcc;
+  border: 1px solid #039dcc;
+}
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus {
+  background-color: #ffffff;
+  color: #039dcc;
+  box-shadow: 0px 2px 8px 2px #ffffff;
+}
+.btn-white:active:hover,
+.btn-white:active:focus {
+  background-color: #ffffff;
+  color: #039dcc;
+}
+
+.btn-default {
+  background-color: transparent;
+  color: #2cb34d;
+  border: 1px solid #2cb34d;
+}
+
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus {
+  background-color: #109c33;
+  color: #fff !important;
+  box-shadow: 0px 2px 8px 2px #109c33;
+}
+.btn-default:active:hover,
+.btn-default:active:focus {
+  background-color: #3abd5b;
+  color: #fff !important;
+}
+
+.btn-default-dim {
+  background-color: transparent;
+  color: #a3a3a3;
+}
+
+// custom css button add saat dibuka di hape
+@media screen and (max-width: 768px) {
+  .btn-action-fixed {
+    padding: 0;
+    position: fixed;
+    width: 2em;
+    height: 2em;
+    bottom: 1em;
+    right: 1em;
+    border-radius: 2em;
+    font-size: 2em;
+    box-shadow: 1em 1em 2em #eee;
+    text-align: center;
+    z-index: 1000;
+    cursor: pointer;
+
+    .title {
+      display: none;
+    }
+
+    &.disabled {
+      background-color: red;
+    }
+  }
+}

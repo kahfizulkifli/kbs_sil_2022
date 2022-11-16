@@ -1,0 +1,27 @@
+.modal-daterange {
+
+    &-content {
+        width: 1000px;
+    }
+
+    &-dialog {
+        width: 1000px;
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .modal-daterange {
+
+        &-content {
+            width: auto;
+        }
+    
+        &-dialog {
+            width: auto;
+            max-width: fit-content;
+            margin: auto;
+        }
+    }
+    
+}

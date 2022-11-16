@@ -1,0 +1,119 @@
+.tw-10 {
+  width: 10px;
+}
+.tw-20 {
+  width: 20px;
+}
+.tw-30 {
+  width: 30px;
+}
+.tw-40 {
+  width: 40px;
+}
+.tw-60 {
+  width: 60px;
+}
+.tw-70 {
+  width: 70px;
+}
+.tw-80 {
+  width: 80px;
+}
+.tw-90 {
+  width: 90px;
+}
+.tw-100 {
+  width: 100px;
+}
+.tw-110 {
+  width: 110px;
+}
+.tw-120 {
+  width: 120px;
+}
+.tw-130 {
+  width: 130px;
+}
+.tw-140 {
+  width: 140px;
+}
+.tw-150 {
+  width: 150px;
+}
+.tw-150 {
+  width: 150px;
+}
+.tw-160 {
+  width: 160px;
+}
+.tw-170 {
+  width: 170px;
+}
+.tw-180 {
+  width: 180px;
+}
+.tw-190 {
+  width: 190px;
+}
+.tw-200 {
+  width: 200px;
+}
+.tw-210 {
+  width: 210px;
+}
+.tw-220 {
+  width: 220px;
+}
+.tw-230 {
+  width: 230px;
+}
+.tw-240 {
+  width: 240px;
+}
+.tw-250 {
+  width: 250px;
+}
+.tw-flex {
+  flex: 1;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: none;
+  padding: 0;
+  margin-top: 10;
+  background-color: #fff;
+  border-bottom: 1px solid #eaebed;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height:40px;
+
+  > div {
+    font-weight: bold;
+    text-align: left;
+    padding: 15px 10px;
+    font-size: 12px;
+  }
+}
+
+.table-contents {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  padding: 0;
+  box-shadow: none;
+  background-color: #fff;
+  border-bottom: 1px solid #eaebed;
+  border-radius: 0;
+
+  &:hover {
+    background-color: #f6fff8;
+  }
+  .table-row {
+    text-align: left;
+    padding: 12px;
+  }
+}

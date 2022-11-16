@@ -1,0 +1,26 @@
+.tab {
+  display: flex;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+
+  /* or 19px */
+  letter-spacing: 0.05em;
+
+  /* Neutral/500 */
+  color: #777986;
+
+  .item-tab {
+    padding: 6px 16px;
+    align-items: center;
+    gap: 8px;
+
+    &.active {
+      background: #dcf1e3 !important;
+      border-radius: 6px;
+      color: #2cb34d;
+    }
+  }
+}

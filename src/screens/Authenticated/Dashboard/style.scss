@@ -1,0 +1,161 @@
+.dashboard {
+  width: 100%;
+  padding: 18px!important;
+  .col{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+  .title-summaries {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+    letter-spacing: 0.05em;
+    /* Neutral/600 */
+    color: #5b5d6b;
+  }
+
+  .value-summaries {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+    letter-spacing: 0.02em;
+    /* Neutral/900 */
+    color: #101223;
+  }
+  .css-1wa3eu0-placeholder,
+  .css-1uccc91-singleValue {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+
+    /* identical to box height, or 14px */
+    letter-spacing: 0.05em;
+
+    /* Neutral/800 */
+    color: #282a3a;
+  }
+  .css-yk16xz-control {
+    border-style: none;
+  }
+  .css-1pahdxg-control {
+    box-shadow: none;
+    border-style: none;
+    border-width: 0;
+  }
+
+  .css-1pahdxg-control:hover {
+    border-color: none;
+  }
+
+  .penjualan-keuntungan {
+    h6 {
+      /* Heading 6 */
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 130%;
+
+      /* or 18px */
+      letter-spacing: 0.05em;
+
+      /* Neutral/900 */
+      color: #101223;
+    }
+  }
+
+  .border-right {
+    border-right: 1px solid #d2d4da;
+  }
+
+  @media (max-width: 768px) {
+    .border-right {
+      border-right: none !important;
+    }
+  }
+
+  .profil-loyal {
+    /* Medium Body */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+
+    /* or 18px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    /* Main/White */
+    color: #ffffff;
+  }
+
+  .name-loyal {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+
+    /* or 19px */
+    letter-spacing: 0.05em;
+
+    /* Neutral/600 */
+    color: #5b5d6b;
+  }
+  .amount-loyal {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+
+    /* or 19px */
+    letter-spacing: 0.05em;
+
+    /* Neutral/900 */
+    color: #101223;
+  }
+
+  .table {
+    .customHeader {
+      border-bottom: 1px solid #eaebed !important;
+      border-top: none !important;
+    }
+    th {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 160%;
+
+      /* or 19px */
+      letter-spacing: 0.05em;
+
+      /* Neutral/900 */
+      color: #101223;
+    }
+    td {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 164%;
+      /* identical to box height, or 20px */
+      letter-spacing: 0.04em;
+      /* Neutral/600 */
+      color: #5b5d6b;
+    }
+  }
+}
